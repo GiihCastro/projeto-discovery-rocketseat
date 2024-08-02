@@ -9,10 +9,10 @@ function toggleMode() {
   if (html.classList.contains("light")) {
     //se tiver light mode, adicionar a imagem light
     img.setAttribute("src", "./assets/avatar-light.png")
-    img.setAttribute("aly", "Foto de Mayk Brito com fundo roxo e azul para perfil")
+    img.setAttribute("alt", "Foto de Mayk Brito com fundo roxo e azul para perfil")
   } else {
     //se tiver sem light mode, manter a imagem original
     img.setAttribute("src", "./assets/avatar.png")
-    img.setAttribute("aly", "Foto de Mayk Brito com fundo amarelo para perfil")
+    img.setAttribute("alt", "Foto de Mayk Brito com fundo amarelo para perfil")
   }
 }
